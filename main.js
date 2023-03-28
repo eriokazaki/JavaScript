@@ -19,7 +19,6 @@ function clickButton(target) {
 
 }
 
-$(function() {
  $('.cal').click(function () { 
  if (result.textContent.slice(-1) === cal.innerHTML) {
   const f = result.textContent.slice(0,-1)
@@ -29,4 +28,4 @@ $(function() {
  }
  }
 })
-}
+
