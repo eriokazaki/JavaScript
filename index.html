@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="main.css">
+ <title>電卓</title>
+ </head>
+ 
+ <body>
+     <table class="dentaku">
+              <tr>
+		          <td colspan="4" readonly id="result">0</td>
+	       	  </tr>
+		      <tr>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">7</button></td>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">8</button></td>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">9</button></td>
+      			  <td class="Calculator__td"><button class="Button cal" onclick="clickButton(this)">+</button></td>
+    		  </tr>
+    		  <tr>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">4</button></td>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">5</button></td>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">6</button></td>
+      			  <td class="Calculator__td"><button class="Button cal" onclick="clickButton(this)">-</button></td>
+    		  </tr>
+    		  <tr>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">1</button></td>
+    			    <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">2</button></td>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">3</button></td>
+      			  <td class="Calculator__td"><button class="Button cal" onclick="clickButton(this)">*</button></td>
+    		  </tr>
+    		  <tr>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">0</button></td>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">00</button></td>
+      			  <td class="Calculator__td"><button class="Button" onclick="clickButton(this)">.</button></td>
+      			  <td class="Calculator__td"><button class="Button cal" onclick="clickButton(this)">/</button></td>
+    		  </tr>
+    		  <tr>
+      			  <td colspan="2"><button class="Button" onclick="clickButton(this)">AC</button></td>
+      			  <td colspan="2"><button class="Button equal" onclick="clickButton(this)">=</button></td>
+    		  </tr>
+   </table>
+ <!-- ここに記述していきましょう！ -->
+ 
+ <script src="main.js"></script>
+ </body>
+ </html>
